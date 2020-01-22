@@ -1,14 +1,15 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>
-      Ionic Blank
+      Meteo Application
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+<ion-content class="ion-padding">
+  <p>Bienvenue sur mon application mobile Meteo</p>
+  <ion-button color="primary" (click)="navToAbout()">A propos</ion-button>
 </ion-content>
